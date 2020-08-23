@@ -12,9 +12,8 @@ The main requirements are [pytorch](http://pytorch.org/) (`v0.4.0`) and python `
 ```bash
 git clone https://github.com/KaiyangZhou/pytorch-vsumm-reinforce
 cd pytorch-vsumm-reinforce
-# download datasets.tar.gz (173.5MB)
-wget http://www.eecs.qmul.ac.uk/~kz303/vsumm-reinforce/datasets.tar.gz
-tar -xvzf datasets.tar.gz
+download the datasets from https://gyglim.github.io/me/vsum/index.html and store it in the dir named datasets
+
 ```
 2. Make splits
 ```bash
